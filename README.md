@@ -1,10 +1,12 @@
 # CBC on Modal
 
-To solve the toy example problem a single time and also 25 times concurrently, use:
+To solve the toy example problem from [these Clemson University OR lecture notes](https://www.math.clemson.edu/~mjs/courses/mthsc.440/integer.pdf) a single time and also 25 times concurrently, use:
 
 ```sh
 python -m modal run main.py
 ```
+
+![milp_problem.png](milp_problem.png)
 
 The output looks like this:
 
