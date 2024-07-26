@@ -1,6 +1,6 @@
 # CBC on Modal
 
-To solve the toy example problem from [these Clemson University OR lecture notes](https://www.math.clemson.edu/~mjs/courses/mthsc.440/integer.pdf) a single time and also 25 times concurrently, use:
+To solve the example knapsack problem on page 3 of [these Clemson University OR lecture notes](https://www.math.clemson.edu/~mjs/courses/mthsc.440/integer.pdf) a single time and also 25 times concurrently, use:
 
 ```sh
 python -m modal run main.py
@@ -37,16 +37,16 @@ Solution description:
   Wallclock time: 0.0
   Termination condition: optimal
   Termination message: Model was solved to optimality (subject to tolerances), and an optimal solution is available.
-  Statistics: 
-    Branch and bound: 
+  Statistics:
+    Branch and bound:
       Number of bounded subproblems: 0
       Number of created subproblems: 0
-    Black box: 
+    Black box:
       Number of iterations: 0
   Error rc: 0
   Time: 0.010016441345214844
 
-    
+
 Calling numerical solver
 Numerical solver done!
 
@@ -74,16 +74,16 @@ Solution description:
   Wallclock time: 0.0
   Termination condition: optimal
   Termination message: Model was solved to optimality (subject to tolerances), and an optimal solution is available.
-  Statistics: 
-    Branch and bound: 
+  Statistics:
+    Branch and bound:
       Number of bounded subproblems: 0
       Number of created subproblems: 0
-    Black box: 
+    Black box:
       Number of iterations: 0
   Error rc: 0
   Time: 0.010912179946899414
 
-    
+
 With a knapsack size of 0 We achieve an objective value of 0.0.
 With a knapsack size of 1 We achieve an objective value of 0.0.
 With a knapsack size of 2 We achieve an objective value of 0.0.
